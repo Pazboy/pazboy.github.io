@@ -1,2 +1,224 @@
 # pazboy.github.io
 Personal Website
+--------------------------------------------
+
+<!DOCTYPE HTML>
+<!--
+	Editorial by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>PAZnet - Home</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<div id="main">
+						<div class="inner">
+
+							<!-- Header -->
+								<header id="header"><br>
+									<a href="index.html" class="logo"><img src="images/logo.png" style="width:10%"></a>
+									<ul class="icons">
+										
+										<li><a href="https://twitter.com/" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+										<li><a href="https://www.facebook.com/" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+										<li><a href="https://www.snapchat.com/" class="icon brands fa-snapchat-ghost"><span class="label">Snapchat</span></a></li>
+										<li><a href="https://www.instagram.com/" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+									</ul>
+								</header>
+
+							<!-- Banner -->
+								<section id="banner">
+									<div class="content">
+										<header>
+											<h1>Welcome to PAZnet&nbsp;</h1>
+											<p>You dream it. I make it.&nbsp;</p>
+										</header>
+										<p>Hello I am Ty the creater of this website. This website is mainly used as just a portfolio and gallery for my art and projects. All pieces of art on this webpage is created by me. If you want to know more about me just click "Learn More" below.&nbsp;&nbsp;</p>
+										<ul class="actions">
+										  <li><a href="about.html" class="button big">Learn More</a></li>
+										</ul>
+									</div>
+									<span class="image object">
+										
+<div class="slideshow-container">
+    <div class="mySlides">
+        <img src="images/pic16.png" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+        <img src="images/pic17.png" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+        <img src="images/pic18.png" style="width:100%">
+    </div>
+
+    <!-- Previous and Next buttons -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+
+<!-- Dot selectors -->
+<div class="dot-container">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+</div>
+
+								  </span>
+								</section>
+
+							<!-- Section -->
+								
+
+							<!-- Section -->
+								<section>
+									<header class="major">
+										<h2>Featured Gallery&nbsp;</h2>
+									</header>
+									<div class="posts">
+										<article>
+											<a href="gallery.html" class="image"><img src="images/pic16.png" alt="" /></a>
+											<h3>Miles Spider Symbol</h3>
+										
+											<ul class="actions">
+												<li><a href="gallery.html" class="button">More</a></li>
+											</ul>
+										</article>
+										<article>
+											<a href="gallery.html" class="image"><img src="images/pic17.png" alt="" /></a>
+											<h3>Joyboy Art&nbsp;</h3>
+											
+											<ul class="actions">
+												<li><a href="gallery.html" class="button">More</a></li>
+											</ul>
+										</article>
+										<article>
+											<a href="gallery.html" class="image"><img src="images/pic18.png" alt="" /></a>
+											<h3>Dianna Commission</h3>
+											
+											<ul class="actions">
+												<li><a href="gallery.html" class="button">More</a></li>
+											</ul>
+										</article>
+										
+									</div>
+								</section>
+
+						</div>
+					</div>
+
+				<!-- Sidebar -->
+					<div id="sidebar">
+						<div class="inner">
+
+							
+
+							<!-- Menu -->
+								<nav id="menu">
+									<header class="major">
+										<h2>Menu</h2>
+									</header>
+									<ul>
+										<li><a href="index.html">Homepage</a></li>
+										<li><a href="about.html">About Me</a></li>
+										<li><a href="gallery.html">Gallery</a></li>
+										<li>
+											<span class="opener">Products/Services</span>
+											<ul>
+												<li><a href="myproducts.html">Products</a></li>
+												<li><a href="services.html">Services</a></li>
+											</ul>
+										</li>
+										
+										<li><a href="privacy.html">Privacy</a></li>
+									</ul>
+								</nav>
+
+							<!-- Section -->
+								<section>
+									<header class="major">
+										<h2>Featured&nbsp;</h2>
+									</header>
+									<div class="mini-posts">
+										<article>
+											<a href="gallery.html" class="image"><img src="images/pic16.png" alt="" /></a>
+											
+										</article>
+										<article>
+											<a href="gallery.html" class="image"><img src="images/pic17.png" alt="" /></a>
+											
+										</article>
+										<article>
+											<a href="gallery.html" class="image"><img src="images/pic18.png" alt="" /></a>
+											
+										</article>
+									</div>
+									<ul class="actions">
+										<li><a href="gallery.html" class="button">More</a></li>
+									</ul>
+								</section>
+
+							<!-- Section -->
+								<section>
+									<header class="major">
+										<h2>Contacts&nbsp;</h2>
+									</header>
+									<p>If you want to contact me use the following methods that are below.</p>
+									<ul class="contact">
+										<li class="icon solid fa-envelope"><a href="https://form.jotform.com/233114614696154">tykmwphillip@gmail.com</a></li>
+										<li class="icon solid fa-phone">(347) 801-5081</li>
+										<li class="icon solid fa-home">231 E Prospect Avenue Apt. 6A<br />
+										Mount Vernon, NY 10550</li>
+									</ul>
+								</section>
+
+							<!-- Paypal -->
+							
+		<section>				
+	<div id="donate-button-container">
+<div id="donate-button"></div>
+<script src="https://www.paypalobjects.com/donate/sdk/donate-sdk.js" charset="UTF-8"></script>
+<script>
+PayPal.Donation.Button({
+env:'production',
+hosted_button_id:'4EUB8VKSWPEAA',
+image: {
+src:'https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif',
+alt:'Donate with PayPal button',
+title:'PayPal - The safer, easier way to pay online!',
+}
+}).render('#donate-button');
+</script>
+</div>
+	</section>								
+							
+							<!-- Footer -->
+								<footer id="footer">
+									<p class="copyright">&copy; PAZnet. All rights reserved. 2023</p>
+								</footer>
+
+						</div>
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>

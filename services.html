@@ -1,0 +1,246 @@
+<!DOCTYPE HTML>
+<!--
+	Editorial by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>PAZnet - Services</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<div id="main">
+						<div class="inner">
+
+							<!-- Header -->
+						  <header id="header">
+									<a href="index.html" class="logo"><img src="images/logo.png" style="width:10%"></a>
+									<ul class="icons">
+										<li><a href="https://twitter.com/" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+										<li><a href="https://www.facebook.com/" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+										<li><a href="https://www.snapchat.com/" class="icon brands fa-snapchat-ghost"><span class="label">Snapchat</span></a></li>
+										<li><a href="https://www.instagram.com/" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+									</ul>
+								</header>
+
+							<!-- Content -->
+								<section>
+									<header class="main">
+										<h1>Services&nbsp;</h1>
+									</header>
+
+<p>Welcome to PAZnet's Commission Services, where your imagination comes to life! I specialize in creating unique and personalized artworks for your role-playing needs. Here's a breakdown of the sizes, styles, and prices available:
+</p>
+									
+<p>1. Sizes:</p>
+<ul>									
+<li>Small (8x10 inches): Ideal for character portraits or detailed items. [$10]</li>
+<li>Medium (11x14 inches): Perfect for larger character scenes or dynamic compositions. [$20]</li>
+<li>Large (16x20 inches): Great for intricate group scenes or elaborate landscapes. [$30]</li>
+</ul>
+		
+<p>2. Styles:</p>
+<ul>									
+<li>Realistic Portraits: Capture the essence of your character with detailed realism.</li>
+<li>Anime/Manga: Bring your characters to life with a touch of vibrant and dynamic anime style.</li>
+<li>Fantasy Illustrations: Dive into the realms of fantasy with magical and otherworldly scenes.</li>
+</ul>									
+	
+<p>3. Prices:</p>
+<ul>									
+<li>Basic Sketch: A quick and expressive sketch to outline your concept. [$5]</li>
+<li>Detailed Line Art: Clean and precise line work to give your characters definition. [$10]</li>
+<li>Full-Color Rendering: Bring your characters to life with a burst of vibrant colors and intricate details. [$20]</li>
+</ul>										
+
+<p>Note: Prices may vary based on complexity and additional elements.</p>
+<p>Ready to bring your characters to life? <a href="https://form.jotform.com/233114614696154">Contact me</a> to discuss your vision and let the artistic journey begin! 🚀</p>
+									
+<p>Use the calculator below to help you work out the pricing.</p>									
+									
+<table id="ida">
+    <tr>
+        <th>Item Description</th>
+        <th>Amount</th>
+    </tr>
+    <tr>
+        <td><input type="text" id="item1" placeholder="Item 1"></td>
+        <td><input type="number" id="amount1" placeholder="Price"></td>
+    </tr>
+    <tr>
+        <td><input type="text" id="item2" placeholder="Item 2"></td>
+        <td><input type="number" id="amount2" placeholder="Price"></td>
+    </tr>
+    <!-- Add more rows as needed -->
+</table>
+
+<br>
+<br>
+
+<table width="93%" id="pt">
+    <tr>
+        <td>Subtotal</td>
+        <td id="subtotal">$0.00</td>
+    </tr>
+    <tr>
+        <td>Tax Rate (%)</td>
+        <td><input type="number" id="taxRate" placeholder="Tax Rate"></td>
+    </tr>
+    <tr>
+        <td>Other Cost</td>
+        <td><input type="number" id="otherCost" placeholder="Other Cost"></td>
+    </tr>
+    <tr>
+        <th>Total Cost</th>
+        <th id="totalCost">$0.00</th>
+    </tr>
+</table>
+
+<script>
+    function calculateTotal() {
+        // Get amounts
+        let amount1 = parseFloat(document.getElementById("amount1").value) || 0;
+        let amount2 = parseFloat(document.getElementById("amount2").value) || 0;
+
+        // Calculate subtotal
+        let subtotal = amount1 + amount2;
+
+        // Get tax rate and other cost
+        let taxRate = parseFloat(document.getElementById("taxRate").value) || 0;
+        let otherCost = parseFloat(document.getElementById("otherCost").value) || 0;
+
+        // Calculate total cost
+        let totalCost = subtotal + (subtotal * taxRate / 100) + otherCost;
+
+        // Display values
+        document.getElementById("subtotal").textContent = "$" + subtotal.toFixed(2);
+        document.getElementById("totalCost").textContent = "$" + totalCost.toFixed(2);
+    }
+
+    // Attach event listeners to input fields
+    document.getElementById("amount1").addEventListener("input", calculateTotal);
+    document.getElementById("amount2").addEventListener("input", calculateTotal);
+    document.getElementById("taxRate").addEventListener("input", calculateTotal);
+    document.getElementById("otherCost").addEventListener("input", calculateTotal);
+	</script>
+									<hr class="major" />
+
+									
+
+								</section>
+
+						</div>
+					</div>
+
+				<!-- Sidebar -->
+					<div id="sidebar">
+						<div class="inner">
+
+							
+
+							<!-- Menu -->
+								<nav id="menu">
+									<header class="major">
+										<h2>Menu</h2>
+									</header>
+									<ul>
+										<li><a href="index.html">Homepage</a></li>
+										<li><a href="about.html">About Me</a></li>
+										<li><a href="gallery.html">Gallery</a></li>
+										<li>
+											<span class="opener">Products/Services</span>
+											<ul>
+												<li><a href="myproducts.html">Products</a></li>
+												<li><a href="services.html">Services</a></li>
+											</ul>
+										</li>
+										
+										<li><a href="privacy.html">Privacy</a></li>
+									</ul>
+								</nav>
+
+							<!-- Section -->
+								<section>
+									<header class="major">
+										<h2>Featured&nbsp;</h2>
+									</header>
+									<div class="mini-posts">
+										<article>
+											<a href="gallery.html" class="image"><img src="images/pic16.png" alt="" /></a>
+											
+										</article>
+										<article>
+											<a href="gallery.html" class="image"><img src="images/pic17.png" alt="" /></a>
+											
+										</article>
+										<article>
+											<a href="gallery.html" class="image"><img src="images/pic18.png" alt="" /></a>
+											
+										</article>
+									</div>
+									<ul class="actions">
+										<li><a href="gallery.html" class="button">More</a></li>
+									</ul>
+								</section>
+
+							<!-- Section -->
+								<section>
+									<header class="major">
+										<h2>Contacts&nbsp;</h2>
+									</header>
+									<p>If you want to contact me use the following methods that are below.</p>
+									<ul class="contact">
+										<li class="icon solid fa-envelope"><a href="https://form.jotform.com/233114614696154">tykmwphillip@gmail.com</a></li>
+										<li class="icon solid fa-phone">(347) 801-5081</li>
+										<li class="icon solid fa-home">231 E Prospect Avenue Apt. 6A<br />
+										Mount Vernon, NY 10550</li>
+									</ul>
+								</section>
+
+														<!-- Paypal -->
+							
+		<section>				
+	<div id="donate-button-container">
+<div id="donate-button"></div>
+<script src="https://www.paypalobjects.com/donate/sdk/donate-sdk.js" charset="UTF-8"></script>
+<script>
+PayPal.Donation.Button({
+env:'production',
+hosted_button_id:'4EUB8VKSWPEAA',
+image: {
+src:'https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif',
+alt:'Donate with PayPal button',
+title:'PayPal - The safer, easier way to pay online!',
+}
+}).render('#donate-button');
+</script>
+</div>
+	</section>		
+							
+							<!-- Footer -->
+								<footer id="footer">
+									<p class="copyright">&copy; PAZnet. All rights reserved. 2023</p>
+								</footer>
+
+						</div>
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>

@@ -1,0 +1,75 @@
+$yellow: #FFD11B;
+$pink: #ED3591;
+$blue: #35D4F9;
+$orange: #FF8000;
+
+div{
+  display: flex;
+  justify-content: center;
+}
+svg {
+  width: 400px;
+  height: 400px;
+  outline: 1px solid red;
+}
+.christmas-tree-orange, .christmas-tree-blue, .christmas-tree-pink,.christmas-tree-yellow {
+  animation-name: christmas-blink;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+.christmas-tree-blue{
+  animation-delay: .75s;
+}
+.christmas-tree-pink{
+  animation-delay: 1.5s;
+}
+.christmas-tree-yellow{
+  animation-delay: 2.25s;
+}
+
+@keyframes christmas-blink{
+  0% {
+    fill:$yellow;
+  }
+  24% {
+    fill:$yellow;
+  }
+  25%{
+    fill:$pink;
+  }
+  49%{
+    fill:$pink;
+  }
+  50%{
+    fill: $blue;
+  }
+  74%{
+    fill: $blue;
+  }
+  75%{
+    fill: $orange;
+  }
+  100%{
+    fill: $orange;
+  }
+}
+  
+
+.christmas-tree-star {
+  animation-name: star-rotate;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  transform-origin: 50% 50%;
+  
+}
+
+@keyframes star-rotate {
+  0% {
+    transform: rotate(0deg)
+  }
+  100% {
+    transform: rotate(360deg)
+  }
+}
+  
+

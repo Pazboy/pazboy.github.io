@@ -1,0 +1,190 @@
+<!DOCTYPE HTML>
+<!--
+	Editorial by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>PAZnet - 8x10</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<div id="main">
+						<div class="inner">
+
+							<!-- Header -->
+								<header id="header">
+									<a href="index.html" class="logo"><img src="images/logo.png" style="width:10%"></a>
+									<ul class="icons">
+										<li><a href="https://twitter.com/" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+										<li><a href="https://www.facebook.com/" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+										<li><a href="https://www.snapchat.com/" class="icon brands fa-snapchat-ghost"><span class="label">Snapchat</span></a></li>
+										<li><a href="https://www.instagram.com/" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+									</ul>
+								</header>
+
+							<!-- Content -->
+								<section>
+									<header class="main">
+										<h1>Product Page&nbsp;</h1>
+									</header>
+
+									
+ <div class="container">
+        <div class="product">
+            <h2>Product Name</h2>
+			<a href="#" class="image"><img src="images/pic22.png" alt="" /></a>
+            <p>(8x10 inches): Ideal for character portraits or detailed items.</p>
+            <p><strong>Price: $10.00</strong></p>
+            <button onclick="showPaymentForm()">Buy Now</button>
+        </div>
+
+        <div id="payment-form" style="display: none;">
+            <h2>Payment Information</h2>
+            <form id="checkout-form">
+                <label for="card-number">Card Number:</label>
+                <input type="text" id="card-number" placeholder="Enter card number" required>
+                <label for="expiry-date">Expiry Date:</label>
+                <input type="text" id="expiry-date" placeholder="MM/YY" required>
+                <label for="cvc">CVC:</label>
+                <input type="text" id="cvc" placeholder="Enter CVC" required>
+                <button type="button" onclick="processPayment()">Complete Purchase</button>
+            </form>
+        </div>
+    </div>
+
+    <script>
+        function showPaymentForm() {
+            document.getElementById("payment-form").style.display = "block";
+        }
+
+        function processPayment() {
+            // In a real-world scenario, you would handle payment processing here.
+            alert("Payment processed successfully!");
+        }
+    </script>
+
+									<hr class="major" />
+
+									
+
+								</section>
+
+						</div>
+					</div>
+
+				<!-- Sidebar -->
+					<div id="sidebar">
+						<div class="inner">
+
+							<!-- Search -->
+								<section id="search" class="alt">
+									<form method="post" action="#">
+										<input type="text" name="query" id="query" placeholder="Search" />
+									</form>
+								</section>
+
+							<!-- Menu -->
+								<nav id="menu">
+									<header class="major">
+										<h2>Menu</h2>
+									</header>
+									<ul>
+										<li><a href="index.html">Homepage</a></li>
+										<li><a href="about.html">About Me</a></li>
+										<li><a href="gallery.html">Gallery</a></li>
+										<li>
+											<span class="opener">Products/Services</span>
+											<ul>
+												<li><a href="myproducts.html">Products</a></li>
+												<li><a href="services.html">Services</a></li>
+											</ul>
+										</li>
+										
+										<li><a href="privacy.html">Privacy</a></li>
+									</ul>
+								</nav>
+
+							<!-- Section -->
+								<section>
+									<header class="major">
+										<h2>Featured&nbsp;</h2>
+									</header>
+									<div class="mini-posts">
+										<article>
+											<a href="generic.html" class="image"><img src="images/pic16.png" alt="" /></a>
+										</article>
+										<article>
+											<a href="generic.html" class="image"><img src="images/pic17.png" alt="" /></a>
+										</article>
+										<article>
+											<a href="generic.html" class="image"><img src="images/pic18.png" alt="" /></a>
+											
+										</article>
+									</div>
+									<ul class="actions">
+										<li><a href="generic.html" class="button">More</a></li>
+									</ul>
+								</section>
+
+							<!-- Section -->
+								<section>
+									<header class="major">
+										<h2>Contacts&nbsp;</h2>
+									</header>
+									<p>If you want to contact me use the following methods that are below.</p>
+									<ul class="contact">
+										<li class="icon solid fa-envelope"><a href="https://form.jotform.com/233114614696154">tykmwphillip@gmail.com</a></li>
+										<li class="icon solid fa-phone">(347) 801-5081</li>
+										<li class="icon solid fa-home">231 E Prospect Avenue Apt. 6A<br />
+										Mount Vernon, NY 10550</li>
+									</ul>
+								</section>
+
+							<!-- Paypal -->
+							
+		<section>				
+	<div id="donate-button-container">
+<div id="donate-button"></div>
+<script src="https://www.paypalobjects.com/donate/sdk/donate-sdk.js" charset="UTF-8"></script>
+<script>
+PayPal.Donation.Button({
+env:'production',
+hosted_button_id:'4EUB8VKSWPEAA',
+image: {
+src:'https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif',
+alt:'Donate with PayPal button',
+title:'PayPal - The safer, easier way to pay online!',
+}
+}).render('#donate-button');
+</script>
+</div>
+	</section>								
+							
+							<!-- Footer -->
+								<footer id="footer">
+									<p class="copyright">&copy; PAZnet. All rights reserved. 2023</p>
+								</footer>
+
+						</div>
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
